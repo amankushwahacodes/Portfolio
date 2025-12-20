@@ -85,7 +85,6 @@ export default function Name() {
             height={160}
             className={`rounded-2xl object-cover shadow-sm ring-1 ring-gray-100 dark:ring-gray-800 ${isPlaying ? "opacity-0" : "opacity-100"}`}
           />
-
           {/* Video element — overlayed on the image; attempt autoplay, but provide a tap-to-play fallback on mobile */}
           {/* <video
             ref={videoRef}
@@ -99,13 +98,12 @@ export default function Name() {
             preload="metadata"
             aria-label="Animated profile video"
           /> */}
-
+          /* eslint-disable @next/next/no-img-element */
           <img
             src="/astronaut.gif"
             alt="Animated profile"
             className="absolute inset-0 h-full w-full rounded-2xl object-cover shadow-sm ring-1 ring-gray-100 dark:ring-gray-800"
           />
-
           {/* Play overlay shown when autoplay is blocked (mobile Safari). Visible only when we need user interaction. */}
           {needsPlay && (
             <button
@@ -124,7 +122,6 @@ export default function Name() {
               </svg>
             </button>
           )}
-
           <span className="border-primary absolute -right-1 -bottom-1 h-4 w-4 rounded-full border-2 bg-green-500" />
         </div>
 

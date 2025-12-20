@@ -1,6 +1,5 @@
 import { FiGithub } from "react-icons/fi";
 import { FaLinkedinIn } from "react-icons/fa";
-import { BsTwitterX } from "react-icons/bs";
 
 export const socialLinks = {
   GitHub: {

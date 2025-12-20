@@ -1,4 +1,4 @@
-# [thefarid.xyz](https://www.thefarid.xyz)
+
 
 > Developer portfolio built with Next.js 15, Tailwind CSS, and TypeScript.
 

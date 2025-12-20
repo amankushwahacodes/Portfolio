@@ -25,7 +25,7 @@ export default function Tour({ onClose }: { onClose: () => void }) {
     };
     window.addEventListener("resize", onResize);
     return () => window.removeEventListener("resize", onResize);
-  }, [index]);
+  }, [index,steps]);
 
   const next = () => setIndex((i) => Math.min(steps.length - 1, i + 1));
   const prev = () => setIndex((i) => Math.max(0, i - 1));

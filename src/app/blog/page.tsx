@@ -35,7 +35,6 @@ export const generateMetadata = (): Metadata => {
       title: metadata.title,
       description: metadata.description,
       images: [metadata.ogImage || siteConfig.ogImage],
-      creator: siteConfig.author.twitter,
     },
     robots: {
       index: true,

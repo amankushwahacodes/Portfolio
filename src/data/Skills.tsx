@@ -1,36 +1,31 @@
 import {
-  FaBootstrap,
   FaGitAlt,
   FaGithub,
   FaHtml5,
-  FaJava,
   FaJs,
   FaNodeJs,
   FaReact,
 } from "react-icons/fa";
 import { PiFileCssFill } from "react-icons/pi";
-import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
+import { RiTailwindCssFill } from "react-icons/ri";
 // Framer Motion icon removed (not used)
 import {
   SiC,
   SiCplusplus,
   SiExpress,
-  SiGithubactions,
-  SiKubernetes,
   SiMongodb,
   SiMysql,
   SiNetlify,
-  SiPostgresql,
+
   SiPostman,
   SiReactquery,
   SiRender,
-  SiSocketdotio,
   SiStyledcomponents,
   SiSupabase,
   SiVite,
 } from "react-icons/si";
 
-import { IoLogoFirebase } from "react-icons/io5";
+
 
 type ButtonVariant =
   | "outline"
