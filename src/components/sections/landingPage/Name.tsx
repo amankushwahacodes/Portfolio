@@ -127,7 +127,7 @@ export default function Name() {
         <div className="flex-1">
           {greeting && (
             <p className="text-secondary mb-2 text-sm">
-              <span className="mr-2">{greeting},</span>
+              <span className="mr-2">{greeting}</span>
               <span
                 className={
                   waveAnimate ? "wave-animate inline-block" : "inline-block"
@@ -135,7 +135,7 @@ export default function Name() {
                 role="img"
                 aria-label="waving hand"
               >
-                👋
+          👋 I'm
               </span>
             </p>
           )}

@@ -28,7 +28,8 @@ const Reachout = () => {
         {/* Buttons */}
         <div className="flex flex-wrap gap-3">
           <a
-            href="https://wa.me/917284913858?text=Hello%20Md%20Farid%2C%20I%20am%20interested%20in%20your%20work"
+            href="https://wa.me/917284913858?text=Hi%20Aman%20👋%2C%20I%20came%20across%20your%20portfolio%20and%20would%20love%20to%20connect.
+"
             target="_blank"
             rel="noopener noreferrer"
           >
