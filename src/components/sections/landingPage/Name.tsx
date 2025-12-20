@@ -79,7 +79,7 @@ export default function Name() {
         <div className="relative h-[120px] w-[120px] transition-transform duration-300 ease-in-out hover:scale-105 md:h-[140px] md:w-[140px] lg:h-[160px] lg:w-[160px]">
           {/* Image fallback (visible until video plays) */}
           <Image
-            src="/mdfarid.jpg"
+            src="/astronaut.gif"
             alt="Aman Kushwaha"
             width={160}
             height={160}
@@ -98,7 +98,6 @@ export default function Name() {
             preload="metadata"
             aria-label="Animated profile video"
           /> */}
-          /* eslint-disable @next/next/no-img-element */
           <img
             src="/astronaut.gif"
             alt="Animated profile"
