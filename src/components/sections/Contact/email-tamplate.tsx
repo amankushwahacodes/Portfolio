@@ -24,10 +24,10 @@ export function EmailTemplate({
       <h2>
         📬 Contact Form Submission via Aman Kushwaha&apos;s Portfolio:{" "}
         <a
-          href="https://your-portfolio-url.com"
+          href="https://portfolio-amankushwaha.vercel.app/"
           style={{ color: "#1a0dab", textDecoration: "none" }}
         >
-          your-portfolio-url.com
+          https://portfolio-amankushwaha.vercel.app/
         </a>
       </h2>
 

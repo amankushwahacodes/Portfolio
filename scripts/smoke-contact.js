@@ -1,7 +1,7 @@
 const { chromium } = require('playwright');
 
 // URL to test - change if needed
-const URL = 'https://portfolio-main-nine-omega.vercel.app/contact';
+const URL = "https://portfolio-amankushwaha.vercel.app/";
 
 async function run() {
   const browser = await chromium.launch({ headless: true });
