@@ -1,23 +1,23 @@
-# Md Farid — Developer Portfolio
+# Aman Kushwaha — Developer Portfolio
 
-This repository contains the personal developer portfolio website for Md Farid. It's built with Next.js (App Router), TypeScript, and Tailwind CSS.
+This repository contains the personal developer portfolio website of **Aman Kushwaha**.  
+It showcases my projects, skills, education, and contact information, built using modern web technologies.
 
-Live preview: https://www.thefarid.xyz
+## Tech Stack
 
-## Tech stack
-
-- Next.js 15 (App Router)
-- React 19
+- Next.js (App Router)
+- React
 - TypeScript
 - Tailwind CSS
 
-## Local development
+## Local Development
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/mdfarid01/Portfolio.git
-cd Portfolio
+git clone https://github.com/amankushwahacodes/portfolio.git
+cd portfolio
+
 ```
 
 Install dependencies (using pnpm recommended):
@@ -30,19 +30,23 @@ pnpm dev
 Open http://localhost:3000 in your browser.
 
 ## Contact / Email (Resend)
+This portfolio uses Resend to handle contact form submissions from the Next.js server.
 
-This site uses Resend to send contact form messages from the hosted Next.js server. To enable email sending locally or in production, set the following environment variables before starting the dev server or deploying:
+To enable email sending locally or in production, configure the following environment variables before starting the dev server or deploying:
 
-- `RESEND_API_KEY` — your Resend API key (starts with `re_...`).
-- `RESEND_FORM_EMAIL` — the From email address used for outgoing mail (example: `no-reply@yourdomain.com`).
-- `RESEND_TO` (optional) — comma-separated recipient email(s). Defaults to `mdfarid.0118@gmail.com` when not provided.
+- RESEND_API_KEY — your Resend API key (starts with re_...)
 
+- RESEND_FORM_EMAIL — sender email address
+(use onboarding@resend.dev if you don’t have a domain)
+
+- RESEND_TO (optional) — recipient email address
+Defaults to the Resend account email if not provided
 Example (macOS / zsh):
 
 ```bash
 export RESEND_API_KEY="re_your_key_here"
-export RESEND_FORM_EMAIL="no-reply@thefarid.xyz"
-export RESEND_TO="you@yourmail.com"
+export RESEND_FORM_EMAIL="onboarding@resend.dev"
+export RESEND_TO="amankushwaha7284@gmail.com"
 pnpm dev
 ```
 
@@ -63,5 +67,5 @@ When the contact form is submitted in the app, the server action at `src/lib/ema
 
 ## License
 
-This project is provided as-is.
-    
+This project is provided as-is and is intended for personal portfolio and learning purposes.
+

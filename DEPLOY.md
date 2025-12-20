@@ -5,7 +5,7 @@ Quick steps (recommended):
 
 1. Push your repository to GitHub (already done).
 2. Go to https://vercel.com and sign in with GitHub.
-3. Click "New Project" → Import Git Repository → choose `mdfarid01/Portfolio`.
+3. Click "New Project" → Import Git Repository → choose `amankushwahacodes/Portfolio`.
 4. Set the following Environment Variables in the Vercel project settings (add them for Preview and Production):
    - RESEND_API_KEY (secret) — your Resend API key
    - RESEND_TO — the recipient email address (comma-separated allowed)
@@ -41,5 +41,5 @@ Files in this repo:
 - `.env.local` — local-only environment variables (do NOT commit to public repositories)
 
 Notes
-- If you want emails to come from `@thefarid.xyz`, verify the domain in Resend and set `RESEND_FORM_EMAIL` to your verified address in Vercel envs.
-- Vercel will build with the environment variables you add in the project settings — there is no need to commit `.env.local`.
+- If you want emails to come from a custom domain, verify the domain in Resend and set `RESEND_FORM_EMAIL` to a verified address in your deployment platform’s environment variables.
+- Your hosting provider (Vercel, Netlify, Render, etc.) will use the environment variables configured in the project settings — there is no need to commit `.env.local`.

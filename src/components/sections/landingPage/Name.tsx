@@ -87,7 +87,7 @@ export default function Name() {
           />
 
           {/* Video element — overlayed on the image; attempt autoplay, but provide a tap-to-play fallback on mobile */}
-          <video
+          {/* <video
             ref={videoRef}
             src="/IMG_9901.mp4"
             poster="/placeholder.png"
@@ -98,6 +98,12 @@ export default function Name() {
             playsInline
             preload="metadata"
             aria-label="Animated profile video"
+          /> */}
+
+          <img
+            src="/astronaut.gif"
+            alt="Animated profile"
+            className="absolute inset-0 h-full w-full rounded-2xl object-cover shadow-sm ring-1 ring-gray-100 dark:ring-gray-800"
           />
 
           {/* Play overlay shown when autoplay is blocked (mobile Safari). Visible only when we need user interaction. */}
