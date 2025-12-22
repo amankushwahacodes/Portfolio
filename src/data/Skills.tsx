@@ -19,6 +19,8 @@ import {
 
   SiPostman,
   SiReactquery,
+  SiReactrouter,
+  SiRedux,
   SiRender,
   SiStyledcomponents,
   SiSupabase,
@@ -137,6 +139,22 @@ export const techSkills: Skill[] = [
     variant: "ghost",
     category: "web",
     size: "w-6 h-6",
+  },
+  {
+    name: "Redux Toolkit",
+    icon: SiRedux,
+    color: "text-purple-500",
+    variant: "ghost",
+    category: "web",
+    size: "w-6 h-6",
+  },
+  {
+    name: "React Router",
+    icon: SiReactrouter,
+    color: "text-red-500",
+    variant: "ghost",
+    category: "web",
+    size: "w-6 h-6",  
   },
 
   {

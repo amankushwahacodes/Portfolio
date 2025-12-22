@@ -23,4 +23,21 @@ export const projectsData: ProjectCardProps[] = [
     technologies: ["Node.js", "Express.js", "MongoDB", "JWT", "Stripe"],
     type: "Full Stack",
   },
+  {
+    title: "Orderly",
+    href: "https://orderly-food-app.vercel.app/",
+    github: "https://github.com/amankushwahacodes/Orderly",
+    description:
+      "A client-side food ordering interface focused on predictable state management and smooth user flows. Features include cart management, order placement with validation, persistent order history using localStorage, and detailed order views.",
+    status: "completed",
+    image: "/Projects/BannerOrderly.png", // update if you use a different banner
+    technologies: [
+      "React",
+      "React Router",
+      "Redux Toolkit",
+      "Tailwind CSS",
+      "Vite",
+    ],
+    type: "Frontend",
+  },
 ];

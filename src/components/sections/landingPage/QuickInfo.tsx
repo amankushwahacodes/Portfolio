@@ -3,6 +3,8 @@
 import Link from "next/link";
 import { Tooltip, TooltipContent, TooltipTrigger } from "../../ui/tooltip";
 import { socialLinks } from "@/data/socialLinks";
+import { FaRegFilePdf } from "react-icons/fa";
+import { Button } from "@/components/ui/button";
 // import { Button } from "@/components/ui/button";
 // import { FaRegFilePdf } from "react-icons/fa";
 
@@ -11,26 +13,26 @@ export default function QuickInfo() {
   return (
     <aside className="space-y-4">
       <div>
-        <h3 className="text-xs font-semibold text-gray-900 dark:text-white mb-2 uppercase tracking-wider">
+        <h3 className="mb-2 text-xs font-semibold tracking-wider text-gray-900 uppercase dark:text-white">
           Status
         </h3>
-        <div className="space-y-2 text-sm text-secondary dark:text-gray-300">
+        <div className="text-secondary space-y-2 text-sm dark:text-gray-300">
           <div className="flex items-center gap-2">
-            <span className="w-2 h-2 bg-green-500 rounded-full" />
+            <span className="h-2 w-2 rounded-full bg-green-500" />
             Available for work
           </div>
           <div className="flex items-center gap-2">
-            <span className="w-2 h-2 bg-blue-500 rounded-full" />
+            <span className="h-2 w-2 rounded-full bg-blue-500" />
             Open to freelance
           </div>
         </div>
       </div>
 
       <div>
-        <h3 className="text-xs font-semibold text-gray-900 dark:text-white mb-2 uppercase tracking-wider">
+        <h3 className="mb-2 text-xs font-semibold tracking-wider text-gray-900 uppercase dark:text-white">
           Focus
         </h3>
-        <ul className="space-y-1 text-sm text-secondary dark:text-gray-300 list-disc list-inside">
+        <ul className="text-secondary list-inside list-disc space-y-1 text-sm dark:text-gray-300">
           <li>Full-Stack Development</li>
           {/* <li>DSA & Problem Solving</li> */}
         </ul>
@@ -38,7 +40,7 @@ export default function QuickInfo() {
 
       {/* <div>
           <Link
-                href= "https://drive.google.com/file/d/1cgHicVE543FVpvgZwYiO4CsiDTxMPIG3/view?usp=sharing"
+                href= "https://drive.google.com/file/d/1YYG4YtvpCJbcvhrILr2qUQN7dVjFx_6o/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-blue-500">
@@ -56,19 +58,20 @@ export default function QuickInfo() {
 
       </div> */}
 
-      <div className="px-2 md:px-8 flex gap-4">
+      <div className="flex gap-4 px-2 md:px-8">
         {Object.entries(socialLinks).map(([name, { href, icon: Icon }]) => (
-          <Tooltip key={name} delayDuration={6} >
+          <Tooltip key={name} delayDuration={6}>
             <TooltipTrigger asChild>
               <Link
                 href={href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-blue-500">
-                <Icon className="w-[20px] h-[20px] " />
+                className="hover:text-blue-500"
+              >
+                <Icon className="h-[20px] w-[20px]" />
               </Link>
             </TooltipTrigger>
-            <TooltipContent >
+            <TooltipContent>
               <p>{name}</p>
             </TooltipContent>
           </Tooltip>
