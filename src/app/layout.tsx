@@ -14,8 +14,9 @@ import TourBadge from "@/components/common/TourBadge";
 
 export const metadata = createMetadata({
   description:
-    "A perfect portfolio website that showcases skills and projects. Minimal and smooth microinteractions. Perfect for developers and designers.",
+    "Personal portfolio featuring frontend and full-stack projects focused on clean architecture, state management, and real-world workflows.",
 });
+
 
 export default function RootLayout({
   children,
