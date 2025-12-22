@@ -26,7 +26,7 @@ export default function HireMeButton() {
   return (
     <div className="fixed top-4 right-4 z-50 hidden md:block">
       <Link
-        href="https://drive.google.com/file/d/1YYG4YtvpCJbcvhrILr2qUQN7dVjFx_6o/view?usp=sharing"
+        href="https://drive.google.com/file/d/1jtrm63YTsosS6sV-Sm-f1NAC7pPZrXb3/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="View Aman Kushwaha's Resume"

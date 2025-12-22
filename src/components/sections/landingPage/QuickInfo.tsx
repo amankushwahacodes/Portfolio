@@ -40,7 +40,7 @@ export default function QuickInfo() {
 
       {/* <div>
           <Link
-                href= "https://drive.google.com/file/d/1YYG4YtvpCJbcvhrILr2qUQN7dVjFx_6o/view?usp=sharing"
+                href= "https://drive.google.com/file/d/1jtrm63YTsosS6sV-Sm-f1NAC7pPZrXb3/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-blue-500">
