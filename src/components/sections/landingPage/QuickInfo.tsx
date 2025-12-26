@@ -38,8 +38,8 @@ export default function QuickInfo() {
         </ul>
       </div>
 
-      {/* <div>
-          <Link
+      <div>
+        {/* <Link
                 href= "https://drive.google.com/file/d/1jtrm63YTsosS6sV-Sm-f1NAC7pPZrXb3/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -54,9 +54,24 @@ export default function QuickInfo() {
         > {<FaRegFilePdf />}
           Resume
         </Button>
-              </Link>
+              </Link> */}
 
-      </div> */}
+        <Button
+          asChild
+          variant="outline"
+          size="lg"
+          className="w-full gap-2 md:hidden"
+        >
+          <a
+            href="https://drive.google.com/file/d/1jtrm63YTsosS6sV-Sm-f1NAC7pPZrXb3/view"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaRegFilePdf className="h-4 w-4" />
+            Resume  
+          </a>
+        </Button>
+      </div>
 
       <div className="flex gap-4 px-2 md:px-8">
         {Object.entries(socialLinks).map(([name, { href, icon: Icon }]) => (

@@ -1,5 +1,5 @@
 import { FiGithub } from "react-icons/fi";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaRegFilePdf } from "react-icons/fa";
 
 export const socialLinks = {
   GitHub: {
@@ -10,6 +10,8 @@ export const socialLinks = {
     href: "https://www.linkedin.com/in/amankushwahacodes/",
     icon: FaLinkedinIn,
   },
+
+
   // Portfolio: {
   //   href: "#",
   //   icon: FiGithub,
