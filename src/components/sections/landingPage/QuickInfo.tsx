@@ -63,12 +63,12 @@ export default function QuickInfo() {
           className="w-full gap-2 md:hidden"
         >
           <a
-            href="https://drive.google.com/file/d/1jtrm63YTsosS6sV-Sm-f1NAC7pPZrXb3/view"
+            href="https://drive.google.com/file/d/1ceuADEliJ0tdDKtsM3IwnaMKvW087uLg/view"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaRegFilePdf className="h-4 w-4" />
-            Resume  
+            Resume
           </a>
         </Button>
       </div>

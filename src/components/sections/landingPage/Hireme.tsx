@@ -25,20 +25,20 @@ export default function HireMeButton() {
   }, []);
 
   return (
-      <div className="fixed top-4 right-4 z-50 hidden md:block">
-        <Link
-          href="https://drive.google.com/file/d/1jtrm63YTsosS6sV-Sm-f1NAC7pPZrXb3/view?usp=sharing"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="View Aman Kushwaha's Resume"
-        > 
-          <Button
-            variant="outline"
-            className={`gap-2   rounded-md border border-gray-300 bg-white px-4 text-sm font-medium text-black transition hover:bg-gray-100 dark:border-gray-700 dark:bg-transparent dark:text-white dark:hover:bg-gray-800 ${pulse ? "animate-pulse" : ""}`}
-          >
-            <span>View Resume</span>
-          </Button>
-        </Link>
-      </div>
+    <div className="fixed top-4 right-4 z-50 hidden md:block">
+      <Link
+        href="https://drive.google.com/file/d/1ceuADEliJ0tdDKtsM3IwnaMKvW087uLg/view"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="View Aman Kushwaha's Resume"
+      >
+        <Button
+          variant="outline"
+          className={`gap-2 rounded-md border border-gray-300 bg-white px-4 text-sm font-medium text-black transition hover:bg-gray-100 dark:border-gray-700 dark:bg-transparent dark:text-white dark:hover:bg-gray-800 ${pulse ? "animate-pulse" : ""}`}
+        >
+          <span>View Resume</span>
+        </Button>
+      </Link>
+    </div>
   );
 }
