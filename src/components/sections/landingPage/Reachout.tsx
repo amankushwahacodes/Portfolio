@@ -4,6 +4,7 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 import { Highlighter } from "@/components/magicui/highlighter";
 import { Reveal } from "@/components/common/reveal";
+import { FaLinkedin } from "react-icons/fa";
 
 const Reachout = () => {
   return (
@@ -27,22 +28,6 @@ const Reachout = () => {
       <Reveal>
         {/* Buttons */}
         <div className="flex flex-wrap gap-3">
-          <a
-            href="https://wa.me/917284913858?text=Hi%20Aman%20👋%2C%20I%20came%20across%20your%20portfolio%20and%20would%20love%20to%20connect.
-"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Button variant="outline" className="flex items-center gap-2">
-              Whatsapp
-            </Button>
-          </a>
-
-          {/* <a href="mailto:amankushwaha.codes@gmail.com?subject=Interested%20in%20Hiring%20You">
-            <Button variant="outline" className="flex items-center gap-2">
-              Email
-            </Button>
-          </a> */}
           <Button
             variant="outline"
             onClick={() => {
@@ -57,6 +42,12 @@ const Reachout = () => {
             }}
           >
             Email
+          </Button>
+
+          <Button variant="outline">
+            <a href="https://www.linkedin.com/in/amankushwahacodes/">
+              Linkedin
+            </a>
           </Button>
         </div>
       </Reveal>

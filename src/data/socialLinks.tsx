@@ -11,9 +11,4 @@ export const socialLinks = {
     icon: FaLinkedinIn,
   },
 
-
-  // Portfolio: {
-  //   href: "#",
-  //   icon: FiGithub,
-  // },
 };
