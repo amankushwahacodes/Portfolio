@@ -55,7 +55,7 @@ export default function ProjectCard({
       <Card
         variant="inner"
         className={cn(
-          "border-muted bg-background flex w-full rounded-xl border shadow-sm transition-all hover:shadow-md",
+          "border-muted bg-background flex h-full w-full rounded-xl border shadow-sm transition-all hover:shadow-md",
           className,
         )}
       >
@@ -71,24 +71,25 @@ export default function ProjectCard({
           {image && (
             <Image
               src={image}
-              width={400}        
-              height={150}       
+              width={400}
+              height={150}
               alt="project preview"
               className="mr-4 mb-6 h-36 w-full overflow-hidden rounded-md object-cover md:mb-1"
             />
           )}
 
-          <div className="flex p-4 gap-2 flex-1 flex-col justify-between md:mt-">
+          <div className="md:mt- flex flex-1 flex-col gap-2 p-4">
             <div className="flex items-center justify-between font-bold">
               {/* <SparklesText className="text-lg font-semibold"> */}
-                {title}
+              {title}
               {/* </SparklesText> */}
               {status && (
                 <span
                   className={cn(
                     "rounded-md px-2 py-0.5 text-xs font-medium text-white",
                     statusColors[status],
-                  )}>
+                  )}
+                >
                   {status.charAt(0).toUpperCase() + status.slice(1)}
                 </span>
               )}
@@ -125,7 +126,7 @@ export default function ProjectCard({
                 );
               })}
             </div>
-            <div className="flex justify-between">
+            <div className="mt-auto flex justify-between pt-4">
               <div className="mt-4">
                 {viewDetails && (
                   <a
@@ -134,7 +135,7 @@ export default function ProjectCard({
                     onMouseOver={() => setIsHovering(true)}
                     onMouseOut={() => setIsHovering(false)}
                   >
-                    <span className="text-secondary text-sm flex items-center gap-2 hover:text-primary hover:underline">
+                    <span className="text-secondary hover:text-primary flex items-center gap-2 text-sm hover:underline">
                       View Details{" "}
                       {isHovering ? (
                         <MdArrowOutward size={16} />
@@ -146,7 +147,7 @@ export default function ProjectCard({
                 )}
               </div>
 
-              <div className="bottom-0 flex justify-end gap-4">
+              <div className="flex justify-end gap-4">
                 <div className="pt-4">
                   <a
                     href={href}

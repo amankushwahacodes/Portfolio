@@ -16,7 +16,7 @@ import { useState } from "react"
 const ContactForm = () => {
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
-    defaultValues: { fullName: "", phoneNo: "", email: "", message: "" },
+    defaultValues: { fullName: "",  email: "", message: "" },
   })
 
   const onSubmit = async (values: z.infer<typeof formSchema>) => {
@@ -48,7 +48,7 @@ const ContactForm = () => {
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
             {/* Name + Phone */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+           
               <FormField
                 control={form.control}
                 name="fullName"
@@ -62,20 +62,6 @@ const ContactForm = () => {
                   </FormItem>
                 )}
               />
-              <FormField
-                control={form.control}
-                name="phoneNo"
-                render={({ field }) => (
-                  <FormItem>
-                    <FormLabel>Phone *</FormLabel>
-                    <FormControl>
-                      <Input placeholder="+91 -----" {...field} />
-                    </FormControl>
-                    <FormMessage />
-                  </FormItem>
-                )}
-              />
-            </div>
 
             {/* Email */}
             <FormField

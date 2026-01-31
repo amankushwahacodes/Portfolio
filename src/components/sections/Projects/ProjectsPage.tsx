@@ -18,7 +18,7 @@ export interface ProjectsPageProps {
 export default function ProjectsList(props: Partial<ProjectsPageProps>) {
   const {
     containerClassName = "mx-auto px-6 lg:px-12 max-w-3xl mt-20 py-4",
-    gridClassName = "grid md:grid-cols-2 lg:grid-cols-2 gap-8 py-12",
+    gridClassName = "grid md:grid-cols-2 lg:grid-cols-2 gap-8 py-12 auto-rows-fr",
     titleClassName = "text-4xl font-bold tracking-tight lg:text-5xl text-center",
     limit,
     showFilter = true,

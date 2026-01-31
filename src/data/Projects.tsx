@@ -2,23 +2,23 @@ import { ProjectCardProps } from "@/components/sections/Projects/ProjectCard";
 
 export const projectsData: ProjectCardProps[] = [
   {
-  title: "AI Resume Builder",
-  href: "https://airesumebuilderapp.vercel.app/",
-  github: "https://github.com/amankushwahacodes/resumebuilder", 
-  description:
-    "A full-stack AI-powered resume builder that allows users to create, edit, and manage professional resumes with secure authentication, AI-assisted content generation, and live preview.",
-  status: "completed",
-  image: "/Projects/previewResumeBuilder.png",
-  technologies: [
-    "React",
-    "Redux Toolkit",
-    "Node.js",
-    "Express.js",
-    "MongoDB",
-    "JWT",
-    "Tailwind",
-  ],
-  type: "Full Stack",
+    title: "AI Resume Builder",
+    href: "https://airesumebuilderapp.vercel.app/",
+    github: "https://github.com/amankushwahacodes/resumebuilder",
+    description:
+      "A full-stack AI-powered resume builder that allows users to create, edit, and manage professional resumes with secure authentication, AI-assisted content generation and live preview. Allows users to generate and share a public resume link for easy sharing.",
+    status: "completed",
+    image: "/Projects/previewResumeBuilder.png",
+    technologies: [
+      "React",
+      "Redux Toolkit",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "Tailwind",
+    ],
+    type: "Full Stack",
   },
   {
     title: "Lodgic – Booking & Operations Management",

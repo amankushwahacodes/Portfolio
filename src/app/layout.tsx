@@ -54,7 +54,7 @@ export default function RootLayout({
           {/* Hidden easter-egg component (console art + secret mini-game). No visible changes by default. */}
           {/* <EasterEgg /> */}
           {/* Explore badge + tour (small visible CTA) */}
-          <TourBadge />
+          {/* <TourBadge /> */}
         </ThemeProvider>
       </body>
     </html>

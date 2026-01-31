@@ -39,7 +39,7 @@ export const send = async (emailFormData: z.infer<typeof formSchema>) => {
       react: EmailTemplate({
         fullName: emailFormData.fullName,
         email: emailFormData.email,
-        phoneNo: emailFormData.phoneNo,
+      
         message: emailFormData.message,
       }),
     });
