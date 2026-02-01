@@ -153,7 +153,6 @@ export default function Name() {
                   "Software Developer",
                   "Full Stack Developer",
                   "React Developer",
-                  "Computer Science Student",
                 ]}
               />
             </span>

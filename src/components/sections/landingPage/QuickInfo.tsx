@@ -34,7 +34,6 @@ export default function QuickInfo() {
         </h3>
         <ul className="text-secondary list-inside list-disc space-y-1 text-sm dark:text-gray-300">
           <li>Full-Stack Development</li>
-          {/* <li>DSA & Problem Solving</li> */}
         </ul>
       </div>
 
@@ -73,24 +72,29 @@ export default function QuickInfo() {
         </Button>
       </div>
 
-      <div className="flex gap-4 px-2 md:px-8">
-        {Object.entries(socialLinks).map(([name, { href, icon: Icon }]) => (
-          <Tooltip key={name} delayDuration={6}>
-            <TooltipTrigger asChild>
-              <Link
-                href={href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-blue-500"
-              >
-                <Icon className="h-[20px] w-[20px]" />
-              </Link>
-            </TooltipTrigger>
-            <TooltipContent>
-              <p>{name}</p>
-            </TooltipContent>
-          </Tooltip>
-        ))}
+      <div>
+        <h3 className="mb-2 text-xs font-semibold tracking-wider text-gray-900 uppercase dark:text-white">
+          Socials
+        </h3>
+        <div className="flex gap-4 px-2 md:px-8 self-start">
+          {Object.entries(socialLinks).map(([name, { href, icon: Icon }]) => (
+            <Tooltip key={name} delayDuration={6}>
+              <TooltipTrigger asChild>
+                <Link
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-blue-500"
+                >
+                  <Icon className="h-[20px] w-[20px]" />
+                </Link>
+              </TooltipTrigger>
+              <TooltipContent>
+                <p>{name}</p>
+              </TooltipContent>
+            </Tooltip>
+          ))}
+        </div>
       </div>
     </aside>
   );
