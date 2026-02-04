@@ -6,7 +6,6 @@ import {
   FaNodeJs,
   FaReact,
 } from "react-icons/fa";
-import { PiFileCssFill } from "react-icons/pi";
 import { RiTailwindCssFill } from "react-icons/ri";
 // Framer Motion icon removed (not used)
 import {
@@ -24,6 +23,7 @@ import {
   SiRender,
   SiStyledcomponents,
   SiSupabase,
+  SiVercel,
   SiVite,
 } from "react-icons/si";
 
@@ -52,11 +52,47 @@ export const techSkills: Skill[] = [
   // 💻 Languages
 
   {
+    name: "React",
+    icon: FaReact,
+    color: "text-cyan-500",
+    variant: "secondary",
+    category: "web",
+    size: "w-6 h-6",
+  },
+
+  {
+    name: "Node.js",
+    icon: FaNodeJs,
+    color: "text-green-600",
+    variant: "secondary",
+    category: "web",
+    size: "w-6 h-6",
+  },
+  {
+    name: "Express.js",
+    icon: SiExpress,
+    color: "text-gray-600",
+    variant: "secondary",
+    category: "web",
+    size: "w-6 h-6",
+  },
+
+  {
+    name: "MongoDB",
+    icon: SiMongodb,
+    color: "text-green-500",
+    variant: "secondary",
+    category: "web",
+    size: "w-6 h-6",
+  },
+
+  {
     name: "JavaScript",
     icon: FaJs,
     color: "text-yellow-500",
-    variant: "secondary",
+    variant: "ghost",
     category: "language",
+    size: "w-6 h-6",
   },
   {
     name: "C++",
@@ -64,6 +100,7 @@ export const techSkills: Skill[] = [
     color: "text-blue-500",
     variant: "secondary",
     category: "language",
+    size: "w-6 h-6",
   },
   {
     name: "C",
@@ -71,22 +108,6 @@ export const techSkills: Skill[] = [
     color: "text-blue-600",
     variant: "secondary",
     category: "language",
-  },
-
-  {
-    name: "HTML",
-    icon: FaHtml5,
-    color: "text-orange-500",
-    variant: "ghost",
-    category: "web",
-    size: "w-6 h-6",
-  },
-  {
-    name: "CSS",
-    icon: PiFileCssFill,
-    color: "text-blue-500",
-    variant: "ghost",
-    category: "web",
     size: "w-6 h-6",
   },
   {
@@ -107,57 +128,6 @@ export const techSkills: Skill[] = [
   },
 
   {
-    name: "React",
-    icon: FaReact,
-    color: "text-cyan-500",
-    variant: "ghost",
-    category: "web",
-    size: "w-6 h-6",
-  },
-
-  {
-    name: "Node.js",
-    icon: FaNodeJs,
-    color: "text-green-600",
-    variant: "ghost",
-    category: "web",
-    size: "w-6 h-6",
-  },
-  {
-    name: "Express.js",
-    icon: SiExpress,
-    color: "text-gray-600",
-    variant: "ghost",
-    category: "web",
-    size: "w-6 h-6",
-  },
-
-  {
-    name: "React Query",
-    icon: SiReactquery,
-    color: "text-red-500",
-    variant: "ghost",
-    category: "web",
-    size: "w-6 h-6",
-  },
-  {
-    name: "Redux Toolkit",
-    icon: SiRedux,
-    color: "text-purple-500",
-    variant: "ghost",
-    category: "web",
-    size: "w-6 h-6",
-  },
-  {
-    name: "React Router",
-    icon: SiReactrouter,
-    color: "text-red-500",
-    variant: "ghost",
-    category: "web",
-    size: "w-6 h-6",  
-  },
-
-  {
     name: "Supabase",
     icon: SiSupabase,
     color: "text-emerald-600",
@@ -166,14 +136,6 @@ export const techSkills: Skill[] = [
     size: "w-6 h-6",
   },
 
-  {
-    name: "MongoDB",
-    icon: SiMongodb,
-    color: "text-green-500",
-    variant: "ghost",
-    category: "web",
-    size: "w-6 h-6",
-  },
   {
     name: "MySQL",
     icon: SiMysql,
@@ -225,9 +187,9 @@ export const techSkills: Skill[] = [
     size: "w-6 h-6",
   },
   {
-    name: "Netlify",
-    icon: SiNetlify,
-    color: "text-teal-500",
+    name: "Vercel",
+    icon: SiVercel,
+    color: "text-black dark:text-white",
     variant: "ghost",
     category: "web",
     size: "w-6 h-6",

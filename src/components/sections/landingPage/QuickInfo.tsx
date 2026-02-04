@@ -76,7 +76,7 @@ export default function QuickInfo() {
         <h3 className="mb-2 text-xs font-semibold tracking-wider text-gray-900 uppercase dark:text-white">
           Socials
         </h3>
-        <div className="flex gap-4 px-2 md:px-8 self-start">
+        <div className="flex gap-4 px-5 md:px-3">
           {Object.entries(socialLinks).map(([name, { href, icon: Icon }]) => (
             <Tooltip key={name} delayDuration={6}>
               <TooltipTrigger asChild>
@@ -86,7 +86,7 @@ export default function QuickInfo() {
                   rel="noopener noreferrer"
                   className="hover:text-blue-500"
                 >
-                  <Icon className="h-[20px] w-[20px]" />
+                  <Icon className="h-[18px] w-[18px]" />
                 </Link>
               </TooltipTrigger>
               <TooltipContent>
