@@ -9,7 +9,7 @@ import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip
 
 const Contact = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 py-16">
+    <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 py-16 mt-12">
       <div className="w-full max-w-3xl space-y-10 text-center">
         {/* Page Header */}
         <div className="space-y-4">
