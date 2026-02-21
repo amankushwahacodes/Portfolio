@@ -78,13 +78,14 @@ export default function Name() {
       >
         <div className="relative h-[120px] w-[120px] transition-transform duration-300 ease-in-out hover:scale-105 md:h-[140px] md:w-[140px] lg:h-[160px] lg:w-[160px]">
           {/* Image fallback (visible until video plays) */}
-          <Image
-            src="/astronaut.gif"
+          {/* <Image
+            // src="/astronaut.gif"
+            src="/pfp.jpeg"
             alt="Aman Kushwaha"
             width={160}
             height={160}
             className={`rounded-2xl object-cover shadow-sm ring-1 ring-gray-100 dark:ring-gray-800 ${isPlaying ? "opacity-0" : "opacity-100"}`}
-          />
+          /> */}
           {/* Video element — overlayed on the image; attempt autoplay, but provide a tap-to-play fallback on mobile */}
           {/* <video
             ref={videoRef}
@@ -99,7 +100,8 @@ export default function Name() {
             aria-label="Animated profile video"
           /> */}
           <img
-            src="/astronaut.gif"
+            // src="/astronaut.gif"
+            src="/pfp.jpeg"
             alt="Animated profile"
             className="absolute inset-0 h-full w-full rounded-2xl object-cover shadow-sm ring-1 ring-gray-100 dark:ring-gray-800"
           />
@@ -135,7 +137,7 @@ export default function Name() {
                 role="img"
                 aria-label="waving hand"
               >
-          👋 I'm
+                👋 I'm
               </span>
             </p>
           )}
