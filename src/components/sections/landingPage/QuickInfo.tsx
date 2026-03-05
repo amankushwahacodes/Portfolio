@@ -62,7 +62,7 @@ export default function QuickInfo() {
           className="w-full gap-2 md:hidden"
         >
           <a
-            href="https://drive.google.com/file/d/1ceuADEliJ0tdDKtsM3IwnaMKvW087uLg/view"
+            href="https://drive.google.com/file/d/1bwcUKgm1BJkUU_tCDRysHUIsrDzfYSsM/view"
             target="_blank"
             rel="noopener noreferrer"
           >
