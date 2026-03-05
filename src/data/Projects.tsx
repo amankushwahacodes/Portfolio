@@ -21,6 +21,24 @@ export const projectsData: ProjectCardProps[] = [
     type: "Full Stack",
   },
   {
+    title: "Job Application Tracker",
+    href: "https://github.com/amankushwahacodes/AI-JobApplicationTracker",
+    github: "https://github.com/amankushwahacodes/AI-JobApplicationTracker",
+    description:
+      "An AI-powered automation system that processes job-related emails, extracts structured information using OpenAI, stores application records in Notion, and sends Telegram alerts for important updates. Includes a scheduled workflow that generates weekly analytics reports of job search progress.",
+    status: "completed",
+    image: "/Projects/BannerAutomation.png",
+    technologies: [
+      "n8n",
+      "OpenAI API",
+      "Gmail API",
+      "Notion API",
+      "Telegram Bot API",
+      "JavaScript",
+    ],
+    type: "Automation",
+  },
+  {
     title: "Lodgic – Booking & Operations Management",
     href: "https://lodgic-app.netlify.app/",
     github: "https://github.com/amankushwahacodes/lodgic",

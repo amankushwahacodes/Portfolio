@@ -15,7 +15,6 @@ import {
   SiMongodb,
   SiMysql,
   SiNetlify,
-
   SiPostman,
   SiReactquery,
   SiReactrouter,
@@ -25,7 +24,9 @@ import {
   SiSupabase,
   SiVercel,
   SiVite,
+  SiN8N,
 } from "react-icons/si";
+
 
 
 
@@ -85,6 +86,14 @@ export const techSkills: Skill[] = [
     category: "web",
     size: "w-6 h-6",
   },
+  {
+  name: "n8n",
+  icon: SiN8N,
+  color: "text-orange-500",
+  variant: "ghost",
+  category: "tools",
+  size: "w-6 h-6",
+},
 
   {
     name: "JavaScript",
