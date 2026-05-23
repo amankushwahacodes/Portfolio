@@ -5,6 +5,7 @@ import { Tooltip, TooltipContent, TooltipTrigger } from "../../ui/tooltip";
 import { socialLinks } from "@/data/socialLinks";
 import { FaRegFilePdf } from "react-icons/fa";
 import { Button } from "@/components/ui/button";
+import { resumeConfig } from "@/config/Resume";
 // import { Button } from "@/components/ui/button";
 // import { FaRegFilePdf } from "react-icons/fa";
 
@@ -62,7 +63,7 @@ export default function QuickInfo() {
           className="w-full gap-2 md:hidden"
         >
           <a
-            href="https://drive.google.com/file/d/1bwcUKgm1BJkUU_tCDRysHUIsrDzfYSsM/view"
+            href={resumeConfig.url}
             target="_blank"
             rel="noopener noreferrer"
           >

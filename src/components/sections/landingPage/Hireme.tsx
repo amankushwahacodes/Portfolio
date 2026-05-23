@@ -5,6 +5,7 @@ import { Briefcase, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { FaRegFilePdf } from "react-icons/fa";
+import { resumeConfig } from "@/config/Resume";
 
 export default function HireMeButton() {
   const [pulse, setPulse] = React.useState(false);
@@ -27,7 +28,7 @@ export default function HireMeButton() {
   return (
     <div className="fixed top-4 right-4 z-50 hidden md:block">
       <Link
-        href="https://drive.google.com/file/d/1bwcUKgm1BJkUU_tCDRysHUIsrDzfYSsM/view"
+        href={resumeConfig.url}
         target="_blank"
         rel="noopener noreferrer"
         aria-label="View Aman Kushwaha's Resume"

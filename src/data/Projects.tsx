@@ -2,6 +2,23 @@ import { ProjectCardProps } from "@/components/sections/Projects/ProjectCard";
 
 export const projectsData: ProjectCardProps[] = [
   {
+    title: "Lodgic",
+    href: "https://lodgic-customer.vercel.app/",
+    github: "https://github.com/amankushwahacodes/lodgic-customer",
+    description:
+      "A full-stack cabin booking platform that allows users to explore available cabins, manage reservations, and book stays through a seamless experience. Features secure Google authentication, dynamic date-based booking management, and a fully responsive interface.",
+    status: "completed",
+    image: "/Projects/BannerLodgic.png",
+    technologies: [
+      "Next.js",
+      "React",
+      "Supabase",
+    
+      "Tailwind",
+    ],
+    type: "Full Stack",
+  },
+  {
     title: "AI Resume Builder",
     href: "https://airesumebuilderapp.vercel.app/",
     github: "https://github.com/amankushwahacodes/resumebuilder",

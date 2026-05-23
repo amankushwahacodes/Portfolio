@@ -1,10 +1,8 @@
 import {
   FaGitAlt,
-  FaGithub,
-  FaHtml5,
-  FaJs,
+  FaGithub, FaJs,
   FaNodeJs,
-  FaReact,
+  FaReact
 } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 // Framer Motion icon removed (not used)
@@ -13,18 +11,13 @@ import {
   SiCplusplus,
   SiExpress,
   SiMongodb,
-  SiMysql,
-  SiNetlify,
-  SiPostman,
-  SiReactquery,
-  SiReactrouter,
-  SiRedux,
-  SiRender,
+  SiMysql, SiPostman, SiRender,
   SiStyledcomponents,
   SiSupabase,
   SiVercel,
   SiVite,
   SiN8N,
+  SiNextdotjs
 } from "react-icons/si";
 
 
@@ -62,6 +55,15 @@ export const techSkills: Skill[] = [
   },
 
   {
+    name: "Next.js",
+    icon: SiNextdotjs,
+    color: "text-black dark:text-white",
+    variant: "secondary",
+    category: "web",
+    size: "w-6 h-6",
+  },
+
+  {
     name: "Node.js",
     icon: FaNodeJs,
     color: "text-green-600",
@@ -87,13 +89,13 @@ export const techSkills: Skill[] = [
     size: "w-6 h-6",
   },
   {
-  name: "n8n",
-  icon: SiN8N,
-  color: "text-orange-500",
-  variant: "ghost",
-  category: "tools",
-  size: "w-6 h-6",
-},
+    name: "n8n",
+    icon: SiN8N,
+    color: "text-orange-500",
+    variant: "ghost",
+    category: "tools",
+    size: "w-6 h-6",
+  },
 
   {
     name: "JavaScript",
